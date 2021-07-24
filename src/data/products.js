@@ -17,6 +17,24 @@ const Products = [
     price: '120',
     image: '/img/3.jpg',
   },
+  {
+    id: 4,
+    name: 'সেলোয়ার কামিজ',
+    price: '950',
+    image: '/img/2.jpg',
+  },
+  {
+    id: 5,
+    name: 'রস মালাই কুমিল্লার',
+    price: '460',
+    image: '/img/5.jpg',
+  },
+  {
+    id: 6,
+    name: 'Homemade food',
+    price: '950',
+    image: '/img/6.jpg',
+  },
 ];
 
 export default Products;

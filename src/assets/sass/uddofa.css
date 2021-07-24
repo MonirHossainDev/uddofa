@@ -553,6 +553,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.text-primary {
+  color: #e2136e;
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -689,6 +693,14 @@ p {
   margin-bottom: 0 !important;
 }
 
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.25rem;
+}
+
 .ms-0 {
   margin-left: 0 !important;
 }
@@ -699,6 +711,10 @@ p {
 
 .p-0 {
   padding: 0 !important;
+}
+
+.p-10 {
+  padding: 0.625rem;
 }
 
 .p-auto {
@@ -759,7 +775,16 @@ p {
   color: #999;
 }
 
+strong,
+.strong {
+  font-weight: 500;
+}
+
 .lh-1 {
   line-height: 1;
+}
+
+.border {
+  border: 1px solid #eee;
 }
 /*# sourceMappingURL=uddofa.css.map */

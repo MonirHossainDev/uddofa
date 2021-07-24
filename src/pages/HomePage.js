@@ -8,25 +8,6 @@ const HomePage = () => {
       <Sidebar />
       <main>
         <ProductsList />
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-6 mx-auto'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ipsum eligendi, officia velit totam nulla quisquam rem, possimus
-              veniam voluptas voluptatum, inventore dignissimos quae tempore tenetur in nisi vero saepe.
-            </div>
-          </div>
-          <div className='row guttor-md-0'>
-            <div className='col-6'>
-              <div className='bg-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus reiciendis explicabo quos hic modi enim obcaecati qui
-                mollitia earum sapiente officiis iure libero quas possimus asperiores consequatur, illum rerum.
-              </div>
-            </div>
-            <div className='col-6'>
-              <div className='bg-primary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, nostrum! </div>
-            </div>
-          </div>
-        </div>
       </main>
     </Uddofa>
   );

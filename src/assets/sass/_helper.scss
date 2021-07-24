@@ -1,3 +1,8 @@
+// Text Color .color
+.text-primary {
+  color: $color-primary;
+}
+
 // Background Color .background-color
 
 .bg-white {
@@ -123,6 +128,14 @@
   margin-bottom: 0 !important;
 }
 
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.25rem;
+}
+
 // Margin Left .me
 .ms-0 {
   margin-left: 0 !important;
@@ -135,6 +148,10 @@
 // Padding .padding
 .p-0 {
   padding: 0 !important;
+}
+
+.p-10 {
+  padding: 0.625rem;
 }
 
 .p-auto {
@@ -182,12 +199,12 @@
   padding-right: auto !important;
 }
 
-// Padding Bottom .mb
+// Padding Bottom .pb
 .pb-0 {
   padding-bottom: 0 !important;
 }
 
-// Padding Left .me
+// Padding Left .pe
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -196,13 +213,25 @@
   padding-left: auto !important;
 }
 
-// Font Size
+// Font Size .fs
 
 .fs-80 {
   font-size: 70%;
   color: #999;
 }
 
+// Font Weight .font-weight
+
+strong,
+.strong {
+  font-weight: 500;
+}
+
 .lh-1 {
   line-height: 1;
+}
+
+// Border
+.border {
+  border: 1px solid #eee;
 }

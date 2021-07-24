@@ -1,4 +1,5 @@
 import React from 'react';
+import { RiMapPinLine } from 'react-icons/ri';
 import styled from 'styled-components';
 import productsData from '../data/products';
 
@@ -14,6 +15,22 @@ const Uddofa = styled.section`
     display: flex;
     align-items: center;
   }
+
+  .breadcrumb {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          text-decoration: none;
+          color: #000;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
   .productt {
     @media (max-width: 992px) {
       background: #fff;
@@ -26,6 +43,7 @@ const Uddofa = styled.section`
 
     .product {
       padding: 10px;
+      margin-bottom: 1.5rem;
       @media (min-width: 992px) {
         background: #fff;
         border: 1px solid #eee;
@@ -66,9 +84,24 @@ const ProductsList = () => {
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <div className='bg-white ddd'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quaerat laboriosam, illo provident quibusdam animi quo asperiores ea
-              molestiae minima ullam amet, consequuntur sequi accusantium sit voluptates qui saepe itaque!
+            <div className='bg-white p-10 mb-20 border'>
+              <div className='location d-flex justify-content-between mb-20'>
+                <div className=''>
+                  <strong>Location:</strong> Bangladesh
+                </div>
+                <div className='text-primary'>Change</div>
+              </div>
+              <div className='breadcrumb d-flex justify-content-between'>
+                <ul>
+                  <li>
+                    <a href=''>Home</a>
+                  </li>
+                  <li>
+                    <a href=''>Health & Beauty</a>
+                  </li>
+                </ul>
+                <div className='short'>Short</div>
+              </div>
             </div>
           </div>
         </div>
@@ -85,12 +118,12 @@ const ProductsList = () => {
                   </div>
                   <div>
                     <span>{name}</span>
-                    <h5 className='mb-0 py-10'>
+                    <h5 className='mb-0 py-10 text-primary'>
                       ৳ {price} <span className='fs-80'>MRP 580</span>
                     </h5>
                   </div>
                   <div className='d-flex justify-content-between '>
-                    <div>Five star 4.5 (55)</div>
+                    <div>Five star 4.5 (55) - 55 Sold</div>
                     {/* <div>5 Sold </div> */}
                   </div>
                 </div>
