@@ -1,5 +1,4 @@
 import React from 'react';
-import { RiMapPinLine } from 'react-icons/ri';
 import styled from 'styled-components';
 import productsData from '../data/products';
 
@@ -94,10 +93,10 @@ const ProductsList = () => {
               <div className='breadcrumb d-flex justify-content-between'>
                 <ul>
                   <li>
-                    <a href=''>Home</a>
+                    <a href='home'>Home</a>
                   </li>
                   <li>
-                    <a href=''>Health & Beauty</a>
+                    <a href='helth'>Health & Beauty</a>
                   </li>
                 </ul>
                 <div className='short'>Short</div>
