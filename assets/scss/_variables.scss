@@ -1,0 +1,40 @@
+//
+// Typography
+//
+
+// Font Families
+$font-primary: "Rubik", Helvetica, Arial, sans-serif !default;
+
+// Font Sizes
+$font-size: 16px !default;
+
+//
+// Breakpoints
+//
+
+$xs: 446px !default; // Double extra small devices (<=445px)
+$sm: 576px !default; // Small devices (landscape phones, >=576 & <=767)
+$md: 768px !default; // Medium devices (tablets, >=768 & <=991)
+$lg: 992px !default; // Large devices (desktops, >=992 & <=1199)
+$xl: 1200px !default; // Extra large devices (large desktops, >=1200)
+$xxl: 1400px !default; // Extra large devices (large desktops, >=1200)
+
+//
+// Colors
+//
+
+// Main Colors
+$color-main: #555 !default;
+$bg-color-main: #fff !default;
+
+// Primary Color EE2852
+$color-primary: #e2136e !default;
+
+// Color White
+$color-white: #fff !default;
+
+// Color Black
+$g-color-black: #000 !default;
+
+// Color Gray
+$color-gray-light-v5: #f7f7f7 !default;

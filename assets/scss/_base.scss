@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  margin: 0;
+  font: {
+    weight: 400;
+    size: 1rem;
+    family: $font-primary;
+  }
+  line-height: 1.6;
+  color: $color-main;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
+  background-color: #f5f5f5;
+}
