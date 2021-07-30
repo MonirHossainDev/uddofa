@@ -361,3 +361,14 @@ progress {
 [hidden] {
   display: none !important;
 }
+
+// Temporary
+
+header {
+  display: flex;
+  height: 60px;
+  background-color: $color-white;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
