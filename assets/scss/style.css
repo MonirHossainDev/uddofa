@@ -471,6 +471,15 @@ p {
   display: grid;
 }
 
+.grid-template-12 {
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.gap-10 {
+  gap: 0.625rem;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -789,8 +798,14 @@ p {
   .mr-10 {
     margin-right: 0.625rem;
   }
+  .mb-10 {
+    margin-bottom: 0.625rem;
+  }
+  .mb-20 {
+    margin-bottom: 1.25rem;
+  }
   .mb-30 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 }
 
@@ -823,6 +838,9 @@ p {
   }
   .p-10 {
     padding: 0.625rem;
+  }
+  .p-20 {
+    padding: 1.25rem;
   }
   .py-10 {
     padding-top: 10px;
@@ -895,8 +913,20 @@ p {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #e2136e;
-  border-color: #e2136e;
+  background-color: #ca1163;
+  border-color: #ca1163;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
 }
 
 .quty-value {
@@ -934,6 +964,8 @@ p {
 }
 
 .form-control {
+  display: block;
+  width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
@@ -941,7 +973,7 @@ p {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #eee;
+  border: 1px solid #ced4da;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

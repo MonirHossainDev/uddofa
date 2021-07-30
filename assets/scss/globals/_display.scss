@@ -5,6 +5,13 @@
 .d-grid {
   display: grid;
 }
+.grid-template-12 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.gap-10 {
+  gap: 0.625rem;
+}
 
 .d-flex {
   display: flex;

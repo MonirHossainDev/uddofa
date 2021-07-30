@@ -29,6 +29,7 @@ $bg-color-main: #fff !default;
 
 // Primary Color EE2852
 $color-primary: #e2136e !default;
+$color-secondary: darken($color-primary, 5%) !default;
 
 // Color White
 $color-white: #fff !default;
