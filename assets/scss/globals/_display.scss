@@ -1,0 +1,43 @@
+.block {
+  display: block;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.grid {
+  display: grid;
+}
+
+.items-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media (min-width: $lg) {
+  .flex-column-lg {
+    flex-direction: column !important;
+  }
+
+  .flex-row-lg {
+    flex-direction: row !important;
+  }
+}

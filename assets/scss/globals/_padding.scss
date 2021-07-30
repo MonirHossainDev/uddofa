@@ -1,0 +1,37 @@
+/*------------------------------------
+  Padding Spaces
+------------------------------------*/
+/* Pdding Spaces (xs)
+------------------------------------*/
+@media (min-width: 0) {
+  .p-0 {
+    padding: 0;
+  }
+
+  .px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+  .p-10 {
+    padding: 0.625rem;
+  }
+  .py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .py-50 {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+  }
+}
