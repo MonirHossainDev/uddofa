@@ -80,7 +80,7 @@ p {
 }
 
 .line-height-1 {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .color-main {
@@ -103,5 +103,9 @@ p {
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
+}
+
+.text-sm {
+  font-size: 0.875rem;
 }

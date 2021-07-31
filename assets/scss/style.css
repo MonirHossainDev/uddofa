@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -525,7 +525,7 @@ p {
 }
 
 .line-height-1 {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .color-main {
@@ -549,7 +549,11 @@ p {
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
+}
+
+.text-sm {
+  font-size: 0.875rem;
 }
 
 .img-fluid {
@@ -1294,15 +1298,11 @@ p {
 }
 
 .height-30 {
-  height: 30px;
-}
-
-.height-30 {
-  height: 36px;
+  height: 2.25rem;
 }
 
 .height-66 {
-  height: 66px;
+  height: 42px;
 }
 
 .height-80 {
