@@ -70,3 +70,38 @@ p {
 .text-decoration-none {
   text-decoration: none;
 }
+
+.fs-12 {
+  font-size: 13px;
+}
+
+.line-height_8 {
+  line-height: 1;
+}
+
+.line-height-1 {
+  line-height: 1.4;
+}
+
+.color-main {
+  color: $color-main;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.text-gold {
+  color: $color-gold;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+}

@@ -7,6 +7,17 @@
   .p-0 {
     padding: 0;
   }
+  .p-10 {
+    padding: 0.625rem;
+  }
+
+  .p-15 {
+    padding: 0.9375rem;
+  }
+
+  .p-20 {
+    padding: 1.25rem;
+  }
 
   .px-0 {
     padding-left: 0 !important;
@@ -37,5 +48,23 @@
   .py-50 {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
+  }
+}
+
+@media (min-width: $lg) {
+  .pb-lg-0 {
+    padding-bottom: 0;
+  }
+
+  .p-lg-10 {
+    padding: 0.625rem;
+  }
+
+  .p-lg-15 {
+    padding: 0.9375rem;
+  }
+
+  .p-lg-20 {
+    padding: 1.25rem;
   }
 }

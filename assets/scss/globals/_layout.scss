@@ -164,21 +164,31 @@
   }
 }
 
-.shop {
-  display: flex;
-  flex: 1 1 0%;
-
-  &__sidebar {
-    width: 260px;
-    background: rgb(255, 255, 255);
-    color: rgb(51, 51, 51);
-    border-right: 1px solid rgb(238, 238, 238);
-    @media (max-width: $lg) {
-      display: none;
-    }
-  }
-
-  &__content {
-    flex: 1 1 0%;
-  }
+.g-3,
+.gx-3 {
+  --gutter-x: 0.9375rem !important;
 }
+
+.g-3,
+.gy-3 {
+  --gutter-y: 0.9375rem !important;
+}
+
+// .shop {
+//   display: flex;
+//   flex: 1 1 0%;
+
+//   &__sidebar {
+//     width: 260px;
+//     background: rgb(255, 255, 255);
+//     color: rgb(51, 51, 51);
+//     border-right: 1px solid rgb(238, 238, 238);
+//     @media (max-width: $lg) {
+//       display: none;
+//     }
+//   }
+
+//   &__content {
+//     flex: 1 1 0%;
+//   }
+// }

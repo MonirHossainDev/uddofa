@@ -2,9 +2,19 @@
   display: block;
 }
 
+.d-contents {
+  display: contents;
+}
+
+@media (min-width: $lg) {
+  .d-block--lg {
+    display: block !important;
+  }
+}
 .d-grid {
   display: grid;
 }
+
 .grid-template-12 {
   grid-template-columns: 1fr 2fr;
 }
